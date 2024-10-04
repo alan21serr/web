@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+	
+  background-image: url("../img/5.jpg");
+    background-size: cover; /* Opcional: ajusta la imagen para cubrir todo el elemento */
+    background-position: center; /* Opcional: centra la imagen en el elemento */
+    opacity: 80%;
+
+}
+h1{
+	text-align: center;
+	font-size: 80px;
+	margin: 15px 0px 30px ;
+	color:  #ffdec9  ;
+
+
+}
+.content{
+	background-color:#f6d6c1 
+;
+	width: 90%;
+	max-width: 900px;
+	margin: auto;
+	height: 120vh;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+		border-radius: 10px;
+}
+
+.table{
+	width: 33%;
+	height: 700px;
+	margin: auto;
+	border: 2px solid #000000;
+	padding: 60px;
+	border-radius: 10px;
+	
+	text-align: center;
+	flex-wrap: 1;
+	color: black;
+	
+}
+
+.table>h2{
+
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+ .table img {
+ width:200px;
+ margin-bottom: 50px; 
+}
+.table>h3{
+
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.table>sup{
+	font-size: 35px;
+}
+
+.table >p{
+	font-size: 20px;
+}
+
+.boton
+{
+	display: inline-block;
+	width: 160px;
+	padding: 11px;
+	font-size: 20px;
+	color: #ffdec9 ;
+	background:#956242 ; 
+	text-decoration: none;
+	border-radius: 17px;
+	text-align: center;
+    font-weight: 500;
+	margin: auto;
+	margin-bottom: ;
+}
+.table :hover, hover{
+
+	background-color:#91522a  ;
+
+     transition: 0.5s all ;
+      transform: scale( 1.1);
+      cursor: pointer;
+    
+}

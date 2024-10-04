@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+
+	  background-image: url("../img/5.jpg");
+    background-size: cover; /* Opcional: ajusta la imagen para cubrir todo el elemento */
+    background-position: center; /* Opcional: centra la imagen en el elemento */
+    opacity: 80%;
+}
+
+img {
+  height: 700px;
+  border-radius: 15px;
+  width: 700px;
+  margin: auto;
+  display: block;
+
+
+ 700px;
+
+}
